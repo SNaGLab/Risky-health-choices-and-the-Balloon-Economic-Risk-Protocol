@@ -10,5 +10,5 @@ The matlab files: BERPdata.m and FirstTrial.m extract data from the raw data fil
 
 Analyses scripts:
 The MainAnalyses.R is an R script which discusses all the main results. This script refers to Questionnare.R and RiskAmb.R.
-The Alone plots from Fig 6 were created by AlonePlots.m.
+The Alone plots from Fig 6 were created by AlonePlots.m. Robustness analyses on first trial (footnote 5) are discusses in FirstTrial.R.
 
