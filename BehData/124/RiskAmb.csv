@@ -1,0 +1,40 @@
+Risk,0,0.25,Gamble
+Risk,1,0.5,Sure Bet
+Risk,2,0.75,Sure Bet
+Risk,3,1.0,Sure Bet
+Risk,4,1.25,Gamble
+Risk,5,1.5,Gamble
+Risk,6,1.75,Gamble
+Risk,7,2.0,Gamble
+Risk,8,2.25,Sure Bet
+Risk,9,2.5,Gamble
+Risk,10,2.75,Gamble
+Risk,11,3.0,Gamble
+Risk,12,3.25,Gamble
+Risk,13,3.5,Gamble
+Risk,14,3.75,Gamble
+Risk,15,4.0,Gamble
+Risk,16,4.25,Gamble
+Risk,17,4.5,Gamble
+Risk,18,4.75,Gamble
+Risk,19,5.0,Sure Bet
+Ambiguity,0,0.25,Gamble
+Ambiguity,1,0.5,Gamble
+Ambiguity,2,0.75,Gamble
+Ambiguity,3,1.0,Gamble
+Ambiguity,4,1.25,Sure Bet
+Ambiguity,5,1.5,Sure Bet
+Ambiguity,6,1.75,Sure Bet
+Ambiguity,7,2.0,Sure Bet
+Ambiguity,8,2.25,Sure Bet
+Ambiguity,9,2.5,Gamble
+Ambiguity,10,2.75,Gamble
+Ambiguity,11,3.0,Gamble
+Ambiguity,12,3.25,Gamble
+Ambiguity,13,3.5,Sure Bet
+Ambiguity,14,3.75,Sure Bet
+Ambiguity,15,4.0,Sure Bet
+Ambiguity,16,4.25,Sure Bet
+Ambiguity,17,4.5,Sure Bet
+Ambiguity,18,4.75,Gamble
+Ambiguity,19,5.0,Gamble
