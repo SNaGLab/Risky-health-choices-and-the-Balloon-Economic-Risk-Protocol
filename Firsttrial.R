@@ -1,7 +1,7 @@
 
 #Robustness check on variable first trial.
 
-cd <- "/Users/Kimmie/Dropbox/Papers/BART/PaperVersions/EconBARTalone/JOEP/DataFiles/" ### Put your own current directory here.
+cd <- "DataFiles/" ### Put your own current directory here.
 q4="FirstTrial.csv" #leave name intact
 
 ### File extensions
