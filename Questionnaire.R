@@ -2,7 +2,7 @@
 
 # Questionnaire data analyses
 
-cd <- "/Users/Kimmie/Dropbox/Papers/BART/PaperVersions/EconBARTalone/JOEP/DataFiles/" ### Put your own current directory here.
+cd <- "/DataFiles/" ### Put your own current directory here.
 q1="Questionnaire.csv" #leave name intact
 
 ### Upload file: stored in R as Q.
