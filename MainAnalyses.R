@@ -10,7 +10,7 @@ library(ggplot2)
 # First run: Questionnaire.R
 # Run RA.R and get RiskAmb as dataframe
 
-cd <- "/Users/Kimmie/Dropbox/Papers/BART/PaperVersions/EconBARTalone/JOEP/DataFiles/" ### Put your own current directory here.
+cd <- "/DataFiles/" ### Put your own current directory here.
 q2="BERPdata.csv" #leave name intact
 q3="BBdis.txt" #leave name intact
 
