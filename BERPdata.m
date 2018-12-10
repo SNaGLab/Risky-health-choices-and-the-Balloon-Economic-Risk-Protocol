@@ -33,9 +33,9 @@ k=k+1;
 % Data stemming from MRI participant folders
 if i==8 || i==16 || i==24 || i==30 || i==36 || i==45 || i==47 || i==54 || i==60 || i==65 || i==72 || i==74 || i==80 || i==83 || i==86 || i==90 || i==103 || i==105 || i==114 || i==115 || i==118 || i==123 || i==127 || i==131 || i==138 || i==140 || i==150 || i==156 || i==160;
 MRIpart=1;
-MRI=strcat('/Users/Kimmie/Dropbox/Papers/BART/Data/MRI/',subj,'/new_Data_P2_',subj,'.csv'); %game play
+MRI=strcat('Data/MRI/',subj,'/new_Data_P2_',subj,'.csv'); %game play %CD to folder which has MRI data
 
-MaxBalloonFile=strcat('/Users/Kimmie/Dropbox/Papers/BART/Data/MRI/MaxRatings.csv'); %Max balloon rating
+MaxBalloonFile=strcat('Data/MRI/MaxRatings.csv'); %Max balloon rating %CD to folder which has MRI data
 MaxBalData=csvread(MaxBalloonFile,1,0);
 
     for y=1:length(MaxBalData)
@@ -44,7 +44,7 @@ MaxBalData=csvread(MaxBalloonFile,1,0);
         end
     end
 
-Belief=strcat('/Users/Kimmie/Dropbox/Papers/BART/Data/MRI/',subj,'/DistRatings_',subj,'.csv'); %Beliefs balloon pops
+Belief=strcat('/Data/MRI/',subj,'/DistRatings_',subj,'.csv'); %Beliefs balloon pops %CD to folder which has MRI data
 
 % Load the data
 Data=csvread(MRI,1,0);
@@ -53,10 +53,10 @@ BeliefData=csvread(Belief,0,0);
 else
 % Data stemming from behavioral participants
 MRIpart=0;    
-Behavioral=strcat('/Users/Kimmie/Dropbox/Papers/BART/Data/BehData/',subj,'/new_Data_P2_',subj,'.csv'); %game play
-Belief=strcat('/Users/Kimmie/Dropbox/Papers/BART/Data/BehData/',subj,'/DistRatings_',subj,'.csv'); %Beliefs balloon pops
+Behavioral=strcat('Data/BehData/',subj,'/new_Data_P2_',subj,'.csv'); %game play %CD to folder which has Behavioral data
+Belief=strcat('Data/BehData/',subj,'/DistRatings_',subj,'.csv'); %Beliefs balloon pops %CD to folder which has Behavioral data
 
-MaxBalloonFile=strcat('/Users/Kimmie/Dropbox/Papers/BART/Data/BehData/MaxRatings.csv'); %Max balloon rating
+MaxBalloonFile=strcat('BehData/MaxRatings.csv'); %Max balloon rating %CD to folder which has Behavioral data
 MaxBalData=csvread(MaxBalloonFile,1,0);
 
     for y=1:length(MaxBalData)
