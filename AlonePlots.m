@@ -11,11 +11,11 @@ part=part+1;
 
     if i==8 || i==16 || i==24 || i==30 || i==36 || i==45 || i==47 || i==54 || i==60 || i==65 || i==72 || i==74 || i==80 || i==83 || i==86 || i==90 || i==103 || i==105 || i==114 || i==115 || i==118 || i==123 || i==127 || i==131 || i==138 || i==140 || i==150 || i==156 || i==160;
     MRIpart=1;
-    MRI=strcat('/Users/Kimmie/Dropbox/Papers/BART/Data/MRI/',subj,'/new_Data_P2_',subj,'.csv');
+    MRI=strcat('Data/MRI/',subj,'/new_Data_P2_',subj,'.csv'); %CD to folder which contains MRI data
     Data=csvread(MRI,1,0);
     else
     MRIpart=0;    
-    Behavioral=strcat('/Users/Kimmie/Dropbox/Papers/BART/Data/BehData/',subj,'/new_Data_P2_',subj,'.csv');
+    Behavioral=strcat('Data/BehData/',subj,'/new_Data_P2_',subj,'.csv'); %CD to folder which contains Behavioral data
     Data=csvread(Behavioral,1,0);
     end
     
