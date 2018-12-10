@@ -24,7 +24,7 @@ for (i in 1:158)
   p=toString(p)
   
   ###put here the cd where you have the folder with data behavioral participants and MRI participants
-  s1 <- ifelse(MRIpart==0,c("/Users/Kimmie/Dropbox/Papers/BART/PaperVersions/EconBARTalone/JOEP/DataFiles/BehData/"), c("/Users/Kimmie/Dropbox/Papers/BART/PaperVersions/EconBARTalone/JOEP/DataFiles/MRI/"))
+  s1 <- ifelse(MRIpart==0,c("DataFiles/BehData/"), c("DataFiles/MRI/"))
   s2 <- "/RiskAmb.csv"
   file=paste(s1, p, s2, sep = "")
   
